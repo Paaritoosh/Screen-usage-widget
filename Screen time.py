@@ -27,5 +27,4 @@ class Screen_time(rumps.App):
     def quit_Screen_time(self,_):
         rumps.quit_application()
 
-if __name__ == "__main__":
-    Screen_time().run()
+Screen_time().run()
